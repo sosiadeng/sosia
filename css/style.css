@@ -1,0 +1,100 @@
+/* profile.css */
+html {
+  background-color: #f5f7f9;
+}
+
+body {
+  background: none;
+  color: #69707a;
+  font-family: 'Ubuntu', sans-serif;
+
+}
+
+strong {
+  color: #222324;
+}
+
+.navbar{
+  background-color: #B0C4DE;
+  margin: 0;
+  padding-bottom: 0;
+  color: white;
+  border-radius: .3rem;
+}
+
+.btn {
+  font-weight: 300;
+}
+
+.btn-primary {
+  background: #e16879;
+  border-color: #e16879;
+}
+
+.btn-primary:hover,
+.btn-primary:active,
+.btn-primary:focus,
+.btn-primary:active:focus {
+  background: #e05164;
+  border-color: #e05164;
+ }
+
+.nav-link{
+	color: white;
+	background-color: transparent;
+}
+
+.nav>li>a:focus, .nav>li>a:hover {
+	background-color: transparent;
+}
+.navbar-nav .nav-link{
+	display: inline-block;
+	margin-left: 30
+}
+
+.card {
+  border-color: #ccc;
+}
+
+.card-title {
+  color: #e16879;
+  font-weight: 200;
+}
+
+.card-block small {
+  float: right;
+}
+
+.description {
+  background-image: url("/pattern.png");
+  background-repeat: repeat-x;
+}
+.btn-group-lg>.btn, .btn-lg{
+	margin: 50
+}
+
+/* Additional stuff for index.html page */
+.jumbotron {
+  background-color: #66CDAA;
+  background-size: cover;
+  color: white;
+  margin-bottom: 0;
+}
+.jumbotron .h1, .jumbotron h1{
+	font-size: 30px
+}
+.footer .container{
+	position: relative;
+}
+.footer{
+	background: #B0C4DE;
+	color: white;
+	border-radius: .3rem;
+}
+.footertext{
+	position: relative;
+	display: inline-block;
+	margin-left: 30;
+	padding-top: 15px;
+	padding-bottom:15px;
+}
